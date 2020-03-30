@@ -1,190 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Whatsapp Clone</title>
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
+<body>
+	<div class="nav">
+		<div class="nav_image">
+			<img src="newinitial.gif" alt="A" title="Thats my initial!">
+		</div>
+		<div class="nav_list">
+		<ul class="nav_list_items">
+			<li><a href="#one">About Me</a></li>
+			<li><a href="#two">Knowledge Stack</a></li>
+			<li><a href="#three">Projects</a></li>
+			<li><a href="#four">Social Media</a></li>
+		</ul>
+	</div>
+	<div class="nav_rotate">
+		<img src="rotate.gif" alt="Bonjour!">
+	</div>
+	</div>	
+		
+	<div class="container" id="one">
+		<div class="aboutMe">
+			<div class="myImage">
+				<img src="newtwo.jpg" alt="Hi!">
+			</div>
+				<div class="aboutMe_name">
+					<h1>Adithya A</h1>
+				</div>				
+			</div>
+			<div class="description" >
+				<p>I am a Electronics and Communication Engineering graduate and a computer science enthusiast.
+				My area's of interest are in the field of Web Development and Networking. My hobbies includes 
+				playing pc games and updating my knowledge about automobiles.  
+				</p>				
+			</div>			
+		</div >
+		<div class="technology_list" id="two">
+			<ul class="technology_list_items">
+				<li><div class="list"><img src="c.png" alt="C"><div class="list_empty eighty"><h1>80%</h1></div></div></li>
+				<li><div class="list"><img src="js.png" alt="javaScript"><div class="list_empty seventy"><h1>70%</h1></div></div></li>
+				<li><div class="list"><img src="Html.png" alt="Html"><div class="list_empty sixtyfive"><h1>65%</h1></div></div></li>
+				<li><div class="list"><img src="Css.png" alt="Css"><div class="list_empty sixty"><h1>60%</h1></div></div></li>
+				<li><div class="list"><img src="Jquery.png" alt="Jquery"><div class="list_empty seventy"><h1>70%</h1></div></div></li>
+				<li><div class="list"><img src="Angular.png" alt="Angularjs"><div class="list_empty seventyfive"><h1>75%</h1></div></div></li>
+				<li><div class="list"><img src="node.png" alt="Nodejs"><div class="list_empty seventy"><h1>70%</h1></div></div></li>
+				<li><div class="list"><img src="aws.png" alt="Cloud Computing"><div class="list_empty sixty"><h1>60%</h1></div></div></li>
+				<li><div class="list"><img src="git.png" alt="Git"><div class="list_empty eighty"><h1>80%</h1></div></div></li>
+			</ul>			
+		</div>
+		<div class="project_list" id="three">
+			<ol class="project_list_items">
+				<li><h1>1.Responsive single page website of my portfolio.</h1> </li>
+			</ol>			
+		</div>
+		
+		<div class="social_list" id="four">
+		  <ul class="social_list_items">
+			<li><a href="https://github.com/adithya7991" title="Would You like to see my projects?" target="_blank"><img src="github.png" alt="GitHub"></a></li>
+			<li><a href="https://www.linkedin.com/in/adithya7991/"  title="Would You like to see my linkedin profile?" target="_blank"><img src="linkedin.png" alt="Linkedin"></a></li>
+			<li><a href="https://twitter.com/adithyaanand111"  title="Would You like to see my twitter account?" target="_blank"><img src="twitter2.png" alt="Twitter"></a></li>
+			<li><a href="https://www.facebook.com/profile.php?id=100006281779171"  title="Would You like to see my facebook profile?" target="_blank"><img src="fb.png" alt="Facebook"></a></li>
+		   </ul>			
+		</div>
 
-<body style=" height: 100vh; " >
-    <div class="container-fluid bg-warning" style="height: 100vh;overflow: hidden; ">
-      <div class="row justify-content-center mt-5 bg-dark  " style=" height: 85%;">
-
-
-    <div class="col-lg-10 px-lg-0 " style="overflow-y: auto; overflow-x: hidden; position: relative;" >
-      <header class="d-flex flex-column " style="position: absolute; width: 100%;">
-          <nav class="navbar navbar-light bg-light w-100 pr-4 d-flex flex-row justify-content-lg-between" >
-          <div class="rounded-circle  mt-2" style="width: 3rem;">
-          <a class="w-100 rounded-circle navbar-brand py-0" href="dp.html" title="Wanna change your DP?">           
-          <img src="two.jpg" class="w-100 rounded-circle">           
-          </a>
-
-
-          </div>
-          <a href="chatlist.html" title="Wanna see all chats? " >
-          <i class="material-icons pr-2 pt-2" style="color:gray; font-size: 2rem;">&#xe164;</i>
-          </a>
-          </nav> 
-
-          <nav class="navbar navbar-light bg-dark w-100 px-0">
-             <div class="input-group">                       
-              <input class="form-control" style="outline-style:none;box-shadow:none; border-color: transparent; overflow: visible;" type="search" placeholder="Search or start a new chat " 
-               aria-label="Search">
-               <div class="input-group-append rounded bg-light  ">
-                <button class="input-group-text bg-black rounded material-icons" style="outline-style:none;box-shadow:none; border-color: black; cursor: pointer;">&#xe8b6;</button>              
-              </div>
-              </div>
-          </nav>
-
-
-
-
-          
-          </header>
-
-
-          <div class="container-fluid bg-light" style="margin-top:7rem; " >
-          <ul class="list-unstyled">
-            <a href="family.html" target="_self" class="badge badge-light w-100">
-             <li class="media my-2">
-          <img class="mr-3 rounded-circle" src="two.jpg" alt="DP" style="width:3rem;height: 3rem; ">
-          <div class="container">
-            <div class="row">
-          <div class="media-body d-flex flex-row justify-content-between ">
-            <h5 class="mt-0 mb-1">Family</h5>
-            <small>Today</small>
-          </div> 
-          </div>
-          <div class="row" style=" height:1.8rem;overflow-y: hidden;">         
-          <p class="font-weight-normal"><b>Some Relative:</b> Have you Got the job?</p>
-          <small class="badge badge-primary ml-auto " style="height: 1rem;width: 1rem;">1</small>
-             </div>
-            </div>
-           </li>
-        <hr class="mb-0"></a>
-         <a href="mom.html" class="badge badge-light w-100">
-        <li class="media my-2">
-          <img class="mr-3 rounded-circle" src="two.jpg" alt="DP" style="width:3rem;height: 3rem; ">
-          <div class="container">
-            <div class="row">
-          <div class="media-body d-flex flex-row justify-content-between ">
-            <h5 class="mt-0 mb-1">Mom</h5>
-            <small>Today</small>
-          </div> 
-          </div>
-          <div class="row" style=" height:1.8rem;overflow: hidden;">         
-          <p class="font-weight-normal">Where are you?</p>
-             </div>
-            </div>
-           </li>
-        <hr class="mb-0"></a>
-          <a href="crush.html" class="badge badge-light w-100 " style="overflow: hidden;">
-         <li class="media my-2">
-          <img class="mr-3 rounded-circle" src="two.jpg" alt="DP" style="width:3rem;height: 3rem; ">
-          <div class="container">
-            <div class="row">
-          <div class="media-body d-flex flex-row justify-content-between ">
-            <h5 class="mt-0 mb-1">Crush</h5>
-            <small>7:50 PM</small>
-          </div> 
-          </div>
-          <div class="row" style=" height:1.8rem;overflow: hidden;">         
-          <p class="font-weight-normal">I welcome you and your family for my wedding...blah.. blahh!</p>
-             </div>
-            </div>
-           </li>
-        <hr class="mb-0"></a>
-        <a href=" college.html " class="badge badge-light w-100">
-        <li class="media my-2">
-          <img class="mr-3 rounded-circle" src="two.jpg" alt="DP" style="width:3rem;height: 3rem; ">
-          <div class="container">
-            <div class="row">
-          <div class="media-body d-flex flex-row justify-content-between ">
-            <h5 class="mt-0 mb-1">College Group</h5>
-            <small>Today</small>
-          </div> 
-          </div>
-          <div class="row" style=" height:1.8rem;overflow: hidden;">         
-          <p class="font-weight-normal"><b>Poor planning guy:</b> Shall we plan for a goa trip?</p>
-          <small class="badge badge-primary ml-auto " style="height: 1rem;width: 1rem;">1</small>
-
-             </div>
-            </div>
-           </li>
-        <hr class="mb-0"></a>
-        <a href="cousins.html" class="badge badge-light w-100">
-        <li class="media my-2">
-          <img class="mr-3 rounded-circle" src="two.jpg" alt="DP" style="width:3rem;height: 3rem; ">
-          <div class="container">
-            <div class="row">
-          <div class="media-body d-flex flex-row justify-content-between ">
-            <h5 class="mt-0 mb-1">Cousins-team</h5>
-            <small>4/01/2018</small>
-          </div> 
-          </div>
-          <div class="row" style=" height:1.8rem;overflow: hidden;">         
-          <p class="font-weight-normal"><b>Small bro:</b> I need help!</p>
-             </div>
-            </div>
-           </li>
-        <hr class="mb-0"></a>           
-         <a href="school.html" class="badge badge-light w-100">
-        <li class="media my-2">
-          <img class="mr-3 rounded-circle" src="two.jpg" alt="DP" style="width:3rem;height: 3rem; ">
-          <div class="container">
-            <div class="row">
-          <div class="media-body d-flex flex-row justify-content-between ">
-            <h5 class="mt-0 mb-1">School Goup</h5>
-            <small>Yesterday</small>
-          </div> 
-          </div>
-          <div class="row" style=" height:1.8rem;overflow: hidden;">         
-          <p class="font-weight-normal"><b>Sam:</b> How are you guys!</p>
-             </div>
-            </div>
-           </li>
-        <hr class="mb-0"></a>            
-        <a href="sister.html" class="badge badge-light w-100">
-        <li class="media my-2">
-          <img class="mr-3 rounded-circle" src="two.jpg" alt="DP" style="width:3rem;height: 3rem; ">
-          <div class="container">
-            <div class="row">
-          <div class="media-body d-flex flex-row justify-content-between ">
-            <h5 class="mt-0 mb-1">Sister</h5>
-            <small>8/22/2018</small>
-          </div> 
-          </div>
-          <div class="row" style=" height:1.8rem;overflow: hidden;">         
-          <p class="font-weight-normal">How is lyf going da?</p>
-             </div>
-            </div>
-           </li>
-        <hr class="mb-0"></a>
-        
-        </ul>
-      </div>
-      </div>
-            
-
-                              
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
 </body>
-
 </html>
